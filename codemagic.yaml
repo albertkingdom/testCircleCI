@@ -10,7 +10,7 @@ workflows:
       - name: Build ipa for distribution
         script: | 
           xcode-project build-ipa \
-            --project "$CM_BUILD_DIR/testCircleCI.xcodeproj"
+            --project "$CM_BUILD_DIR/testCircleCI.xcodeproj" \
             --scheme "$XCODE_SCHEME"
     artifacts:
       - build/ios/ipa/*.ipa
