@@ -5,6 +5,7 @@ workflows:
         groups:
           - test
         vars:
+          XCODE_PROJECT: "testCircleCI.xcodeproj"
           XCODE_WORKSPACE: "testCircleCI.xcworkspace" # <-- Put the name of your workspace here.
           XCODE_SCHEME: "testCircleCI" # <-- Put the name of your scheme here.
           BUNDLE_ID: "com.a2006mike.testCircleCI" # <-- Put your Bundle Id here.
@@ -43,7 +44,7 @@ workflows:
             agvtool new-version -all $(($(app-store-connect get-latest-testflight-build-number "$APP_STORE_APP_ID") + 1))
         - name: Build ipa for distribution
           script: |
-            xcode-project build-ipa --workspace "$XCODE_WORKSPACE" --scheme "$XCODE_SCHEME"
+            xcode-project build-ipa --project "$XCODE_PROJECT" --scheme "$XCODE_SCHEME"
       artifacts:
         - build/ios/ipa/*.ipa
         - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
