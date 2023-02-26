@@ -1,9 +1,10 @@
-ios-native:
-  environment:
-    vars:
-      BUNDLE_ID: "io.codemagic.sample.iosnative"
-      XCODE_WORKSPACE: "testCircleCI.xcworkspace" # <-- Name of your Xcode workspace
-      XCODE_SCHEME: "testCircleCI" # <-- Name of your Xcode scheme
+wordflows:
+  ios-native:
+    environment:
+      vars:
+        BUNDLE_ID: "io.codemagic.sample.iosnative"
+        XCODE_WORKSPACE: "testCircleCI.xcworkspace" # <-- Name of your Xcode workspace
+        XCODE_SCHEME: "testCircleCI" # <-- Name of your Xcode scheme
 scripts:
   # ...
   - name: Build ipa for distribution
