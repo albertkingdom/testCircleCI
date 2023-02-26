@@ -1,4 +1,4 @@
-wordflows:
+workflows:
   ios-native:
     environment:
       vars:
