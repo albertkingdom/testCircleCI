@@ -5,15 +5,15 @@ workflows:
         BUNDLE_ID: "io.codemagic.sample.iosnative"
         XCODE_WORKSPACE: "testCircleCI.xcworkspace" # <-- Name of your Xcode workspace
         XCODE_SCHEME: "testCircleCI" # <-- Name of your Xcode scheme
-scripts:
-  # ...
-  - name: Build ipa for distribution
-    script: | 
-      xcode-project build-ipa \
-        --project "$CM_BUILD_DIR/testCircleCI.xcodeproj"
-        --scheme "$XCODE_SCHEME"
-artifacts:
-  - build/ios/ipa/*.ipa
-  - /tmp/xcodebuild_logs/*.log
-  - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
-  - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
+    scripts:
+      # ...
+      - name: Build ipa for distribution
+        script: | 
+          xcode-project build-ipa \
+            --project "$CM_BUILD_DIR/testCircleCI.xcodeproj"
+            --scheme "$XCODE_SCHEME"
+    artifacts:
+      - build/ios/ipa/*.ipa
+      - /tmp/xcodebuild_logs/*.log
+      - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
+      - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
