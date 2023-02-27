@@ -5,10 +5,10 @@ workflows:
         groups:
           - test
         vars:
-          XCODE_PROJECT: "testCircleCI.xcodeproj"
-          XCODE_WORKSPACE: "testCircleCI.xcworkspace" # <-- Put the name of your workspace here.
+          XCODE_PROJECT: "testCodeMagic.xcodeproj"
+          XCODE_WORKSPACE: "testCodeMagic.xcworkspace" # <-- Put the name of your workspace here.
           XCODE_SCHEME: "testCircleCI" # <-- Put the name of your scheme here.
-          BUNDLE_ID: "com.a2006mike.testCircleCI" # <-- Put your Bundle Id here.
+          BUNDLE_ID: "com.a2006mike.testCodeMagic" # <-- Put your Bundle Id here.
           # APP_STORE_APP_ID: 1555555551 # <-- Put the app id number here. This is found in App Store Connect > App > General > App Information
         xcode: latest
         cocoapods: default

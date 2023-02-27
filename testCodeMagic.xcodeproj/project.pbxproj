@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A10C3B9229AB4C6800C332BD /* testCircleCI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testCircleCI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10C3B9229AB4C6800C332BD /* testCodeMagic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testCodeMagic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A10C3B9529AB4C6800C332BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A10C3B9729AB4C6800C332BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A10C3B9929AB4C6800C332BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		A10C3B9329AB4C6800C332BD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A10C3B9229AB4C6800C332BD /* testCircleCI.app */,
+				A10C3B9229AB4C6800C332BD /* testCodeMagic.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A10C3B9129AB4C6800C332BD /* testCircleCI */ = {
+		A10C3B9129AB4C6800C332BD /* testCodeMagic */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A10C3BA629AB4C6B00C332BD /* Build configuration list for PBXNativeTarget "testCircleCI" */;
+			buildConfigurationList = A10C3BA629AB4C6B00C332BD /* Build configuration list for PBXNativeTarget "testCodeMagic" */;
 			buildPhases = (
 				A10C3B8E29AB4C6800C332BD /* Sources */,
 				A10C3B8F29AB4C6800C332BD /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = testCircleCI;
+			name = testCodeMagic;
 			productName = testCircleCI;
-			productReference = A10C3B9229AB4C6800C332BD /* testCircleCI.app */;
+			productReference = A10C3B9229AB4C6800C332BD /* testCodeMagic.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A10C3B8D29AB4C6800C332BD /* Build configuration list for PBXProject "testCircleCI" */;
+			buildConfigurationList = A10C3B8D29AB4C6800C332BD /* Build configuration list for PBXProject "testCodeMagic" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A10C3B9129AB4C6800C332BD /* testCircleCI */,
+				A10C3B9129AB4C6800C332BD /* testCodeMagic */,
 			);
 		};
 /* End PBXProject section */
@@ -301,7 +301,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.a2006mike.testCircleCI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.a2006mike.testCodeMagic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -333,7 +333,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.a2006mike.testCircleCI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.a2006mike.testCodeMagic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -347,7 +347,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A10C3B8D29AB4C6800C332BD /* Build configuration list for PBXProject "testCircleCI" */ = {
+		A10C3B8D29AB4C6800C332BD /* Build configuration list for PBXProject "testCodeMagic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A10C3BA429AB4C6B00C332BD /* Debug */,
@@ -356,7 +356,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A10C3BA629AB4C6B00C332BD /* Build configuration list for PBXNativeTarget "testCircleCI" */ = {
+		A10C3BA629AB4C6B00C332BD /* Build configuration list for PBXNativeTarget "testCodeMagic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A10C3BA729AB4C6B00C332BD /* Debug */,
